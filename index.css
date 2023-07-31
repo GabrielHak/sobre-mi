@@ -20,16 +20,17 @@ img{
     height: 150px;
     width: 150px;
     margin: 10px;
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
 
 #js{
-    flex-grow: 3;
+    /* flex-grow: 3; */
 }
 
 .img-container{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
